@@ -1,0 +1,119 @@
+/* 登录和注册的公共样式 */
+.topnav {
+	width: 100%;
+	height: 30px;
+	/* 背景：颜色 图片 定位x,y 平铺 */
+	background: #efefef url("../img/bg1.png") 0 0 repeat-x;
+}
+/* 文字上下居中 */
+.topnav_r {
+	height: 30px;
+	/* 文本高度，跟行高一致，上下居中 */
+	line-height: 30px;
+}
+/* 头部样式 */
+.topnav_r .line {
+	/* 文本颜色 */
+	color: #7373B9;
+}
+
+/* logo图片 */
+.logo img {
+	width: 249px;
+	height: 50px;
+}
+
+/* 表单头文字 */
+.log_reg_hd{
+	height: 33px;
+	/* 统一背景图片 */
+	background: url("../img/tit_regist.jpg") 0 -34px repeat-x;
+	/* border: 1px solid red; */
+}
+
+.log_reg_hd h2{
+	float: left;
+	font-size: 14px;
+	height: 33px;
+	line-height: 34px;
+	padding-left: 10px;
+	/* 用户登录导航条的左侧，使用背景封起来 */
+	background: url("../img/tit_regist.jpg") 0 0px no-repeat;
+}
+
+/* 用户登录导航的右测，使用背景封起来 */
+.log_reg_hd b{
+	float: right;
+	height: 33px;
+	width: 10px;
+	background: url("../img/tit_regist.jpg") right -68px no-repeat;
+}
+
+
+/* 表单主体 */
+.log_reg_bd {
+	width: 958px;
+	padding: 30px 0px 30px 30px;
+	border: 1px solid #d1d1d1;
+	/* 盒子内容自适应 */
+	overflow: auto;
+	border-top: 0;
+}
+
+/* 表单主体的左侧盒子 */
+.log_reg_form {
+	width: 540px;
+	color: #666;
+	border-right: 1px solid #eee;
+}
+
+.log_reg_form li{
+	padding: 10px 0px;
+}
+
+.log_reg_form li label{
+	width: 60px;
+	text-align: right;
+	float: left;
+	/* 相对原始位置定位，top正直就下移 原始位置会被保留 */
+	position: relative;
+	top: 7px;
+}
+
+/* 用户名密码的输入框 */
+.log_reg_form .txt{
+	width: 295px;
+	height: 20px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+/* 验证码输入框 */
+.log_reg_form .checkcode input{
+	width: 100px;
+	height: 20px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+/* 验证码图片 */
+.log_reg_form .checkcode img{
+	height: 20px;
+}
+
+.log_reg_form a{
+	color: #005aa0;
+}
+
+.savelogin input,span{
+	vertical-align: middle;
+}
+
+/* 尾部导航居中显示 */
+/* 后代选择器 */
+.footer p {
+	/* 文本居中 */
+	text-align: center;
+	/* 内边距 可以写四个值，顺序上右下左 如果当前位置没有值，会找相对位置值 上下为5 左右为0  */
+	padding: 5px 0px;
+}

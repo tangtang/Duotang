@@ -1,0 +1,99 @@
+/* 登录页特效 */
+input[type="submit"] {
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    padding: 12px 0px;
+    width: 35%;
+    font-size: 18px;
+    background: #7373B9;
+    border: 2px solid #7373B9;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+
+}
+.submit h4 a {
+    float: left;
+    font-size: 16px;
+    color: #999;
+    font-weight: 400;
+    font-family: 'Droid Sans', sans-serif;
+    margin-top: 15px;
+    margin-left: 21px;
+}
+a {
+    text-decoration: none;
+}
+/* 合作网站 */
+.hezuo dd{
+	float: left;
+	display: inline;
+	padding-right: 10px;
+}
+
+.hezuo dl {
+	line-height: 20px;
+}
+
+/* 给每个合作网站名加一个图片 */
+.hezuo dd span{
+	/* 行内块元素才可以设置宽和高 */
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 2px;
+	
+	top: -1px;
+	/* border: 1px solid red; */
+}
+
+/* qq图片背景定位：第一个值是水平定位，第二值是垂直 */
+
+/* 登录表单右测盒子 */
+.joinus{
+	width: 349px;
+	height: 249px;
+	padding-left: 50px;
+	/* border: 1px solid green; */
+}
+
+/* 段落的颜色，边距和行高 */
+.joinus p{
+	color: #666;
+	margin: 20px 0;
+	line-height: 20px;
+}
+
+/* 注册按钮 */
+.joinus a{
+	display: inline-block;
+	width: 140px;
+	height: 32px;
+	line-height: 32px;
+	/* 文字水平居中 */
+	text-align: center;
+	background-color: #737;
+	color: white;
+	/* 圆角边框 */
+	border-radius: 3px;
+	/* border: 1px solid red; */
+}
+
+.joinus a:nth-of-type(2){
+	background-color: #8600FF;
+}
+
+/* 画圆圈 */
+.yuan{
+	width: 15px;
+	height: 15px;
+	/* border: 1px solid red; */
+	border-radius: 50%;
+	line-height: 15px;
+	text-align: center;
+	background-color: #999;
+	color: #fff;
+}

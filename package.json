@@ -1,0 +1,12 @@
+{
+  "name": "Maritime_Mall_ct",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "browser-sync . --index ./tangjin.html"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}

@@ -1,0 +1,71 @@
+/* 商城公共样式 */
+/* 去除网页中所有元素的内外边距 */
+* {
+	/* 外边距 */
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+}
+
+/* 设置整个body中的文字的大小和颜色 */
+body {
+	/* 文字大小 */
+	font-size: 12px;
+	/* 文字颜色 */
+	color: #333;
+	background-color: #E6E6F2;
+}
+
+/* 超链接的默认样式 */
+a {
+	color: #333;
+	/* 去除超链接的文本修饰 */
+	text-decoration: none;
+}
+
+/* 鼠标经过超链接的样式 */
+a:hover {
+	color: #7373B9;
+	/* 超链接增加下划线 */
+	text-decoration: underline;
+}
+
+/* 去除有序，无序列表的修饰 */
+/* 并集选择器 */
+ul,
+ol {
+	list-style: none;
+}
+
+/* 去除图片的默认边框 */
+img {
+	border: 0;
+}
+
+/* 统一宽度 */
+.w990 {
+	width: 990px;
+}
+
+/* 网页居中的灵活用法，前提是盒子必须是由宽度 */
+.auto {
+	/* 外边距同内边距的写法，上右下左 */
+	margin: 0 auto;
+}
+
+/* 盒子浮动 */
+.f_r {
+	/* 右测浮动 */
+	float: right;
+}
+
+.f_l {
+	/* 左侧浮动 */
+	float: left;
+}
+
+
+/* 指定外边距 */
+.mt15{
+	margin-top: 15px;
+}

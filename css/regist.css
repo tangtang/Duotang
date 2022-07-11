@@ -1,0 +1,53 @@
+.left,.right{
+	display: inline-block;
+}
+.left{
+	float: left;
+	margin-left: 10px;
+}
+.right{
+	float: right;
+	margin-right: 10px;
+}
+
+.w990{
+	box-sizing: border-box;
+}
+
+
+.log_reg_form li p{
+	margin-left: 60px;
+}
+
+.
+.right{
+	width: 270px;
+	text-align: center;
+	border: 1px solid #e5e5e5;
+	padding:30px  20px;
+	color: #666;
+}
+.right img, .right  hr, .right p{
+	margin-top: 10px;
+}
+.right span{
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+input[type="submit2"] {
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    padding: 12px 0px;
+    width: 35%;
+    font-size: 18px;
+    background: #7373B9;
+    border: 2px solid #7373B9;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+   text-align: center;
+}

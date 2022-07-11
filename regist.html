@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册页面</title>
+		<!-- 引入外部样式 -->
+		<link href="css/base.css" rel="stylesheet" type="text/css"/>
+		<link href="css/log_reg.css" rel="stylesheet" type="text/css"/>
+		<link href="css/regist.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<!-- ****************头部导航 开始**************** -->
+		<header>
+			<nav class="topnav">
+				<div class="w990 auto">
+					<div class="topnav_r f_r">
+						<span>您好，欢迎来到海商!&nbsp;&nbsp;[<a href="main.html">多糖主页</a>]&nbsp;&nbsp;[<a href="login.html">多糖登录</a>]&nbsp;&nbsp;</span>
+						<span class="line">|</span>&nbsp;&nbsp;我的订单&nbsp;&nbsp;<span class="line">|</span>&nbsp;&nbsp;客户服务
+					</div>
+		*		</div>
+			</nav>
+		</header>
+		
+		<!-- ****************导航 结束**************** -->
+		
+		<!-- ****************登录页主体 开始**************** -->
+		<section>
+			<!-- *********logo开始********* -->
+			<div>
+				<div class="w990 auto">
+					<h2 class="mt15 logo"><img src="img/duotang3.png"/></h2>
+				</div>
+			</div>
+			<!-- *********logo结束********* -->
+			<!-- *********表单开始********* -->
+			<div class="w990 auto mt15">
+				<div class=" w990 log_reg_hd">
+					<h2>用户注册</h2>
+					<b></b>
+				</div>
+				<div class=" w990  log_reg_bd">
+					<div class=" log_reg_form left">
+						<form action="" method="post">
+							<ul>
+								<li>
+									<!-- 账户 -->
+									<label for="">Account：</label>
+									<input type="text" class="txt" name="username" />
+									<p>3-20位字符，可由中文、字母、数字和下划线组成</p>
+								</li>
+								<li>
+									<!-- 密码 -->
+									<label for="">password：</label>
+									<input type="password" class="txt" name="userpwd"/>
+									<p>6-20位字符</p>
+								</li>
+								<li>
+									<!-- 密码 -->
+									<label for=""> password：</label>
+									<input type="password" class="txt" name="userpwd"  />
+									<p>re-enter</p>
+								</li>
+								<li class="checkcode">
+									<!-- 验证码 -->
+									<label for="">验证码：</label>
+									<input type="text" name="usercode" />
+									<img src="img/checkcode1.jpg" />
+									<span>看不清？<a href="#">换一张</a></span>
+								</li>
+								<li class="savelogin">
+									<!-- 保存 -->
+									<label for="">&nbsp;</label>
+									<input type="checkbox"/><span>&nbsp;保存登录信息&nbsp;</span>
+								</li>
+								<li>
+									<!-- 按钮 -->
+									<label for="">&nbsp;</label>
+									<input type="submit2" onclick="myFunctioon()"value="Sign up now"/>
+								</li>
+							</ul>
+						</form>
+					</div>
+					<div class="right">
+						<img src="img/QA%5DH(7BO@~P$TJB7G$_%7B6HG.png" />
+						<hr />
+						<p>中国用户编辑短信 “<span>ITJBB</span>”发送到：</p>
+						<p><span>17384327457</span></p>
+					</div>
+				</div>
+			</div>
+			<!-- *********表单结束********* -->
+		</section>
+		<!-- ****************登录页主体 结束**************** -->
+		
+		
+		<!-- ****************尾部 开始**************** -->
+		<footer class="footer">
+			<p>
+				
+				<a href="#">关于多糖</a> |
+				<a href="#">联系多糖</a> |
+				<a href="#">意见反馈</a> |
+				<a href="#">用户协议</a> 
+			</p>
+			<p>
+				&copy;&nbsp;2001.10.28&nbsp;糖糖的三坑小屋版权所有，并保留所有权利嗷~&nbsp;&nbsp;ITJ  
+			</p>
+			
+		</footer>
+		<!-- ****************尾部 结束**************** -->
+	</body>
+</html>

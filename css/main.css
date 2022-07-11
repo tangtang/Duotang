@@ -1,0 +1,598 @@
+#one,
+#two,
+#three,
+#four,
+#five {
+	display: inline-block;
+	width: 175px;
+	color: black;
+}
+#foot-nav {
+	border: 1px solid #B8B8DC;
+	margin: 0 auto;
+	/* div居中 */
+	background-color: #B8B8DC;
+	border-radius: 6px;
+	/* 圆角 */
+	padding: 30px 40px;
+	/* 大盒子的内边距*/
+}
+
+#foot-nav ul {
+	border-left: 1px dashed #B8B8DC;
+	/* ul 左边框线  虚线*/
+	padding-left: 20px;
+	/* 左边的内边距*/
+}
+
+#foot-nav li,
+#foot-nav h2 {
+	margin-top: 10px;
+	/* li ,h2  上面的外边距*/
+}
+
+#foot-nav h2 {
+	display: inline-block;
+	/* h2 行内元素 */
+}
+
+#foot-nav b img {
+	display: inline-block;
+	/* b行内元素 */
+	width: 28px;
+	height: 28px;
+}
+
+
+
+/* 猜你喜欢 */
+
+#guess-your-like {
+	margin: 20px auto;
+	/* 居中 */
+}
+
+#guess-your-like,
+#foot-nav {
+	box-sizing: border-box;
+	/* width=内容宽度+边框+内外边距 */
+	margin-top: 20px;
+}
+
+#your-like-left,
+#your-like-right {
+	display: inline-block;
+	/* 变成行内元素 */
+
+}
+
+#your-like-left {
+	border: 1px solid #B8B8DC ;
+}
+
+#your-like-left {
+	width: 700px;
+	float: left;
+}
+
+#your-like-right {
+	width: 260px;
+	float: right;
+}
+
+.clear {
+	clear: both;
+	/* 清除两侧浮动 */
+}
+
+#your-like-left-top h2 {
+	width: 210px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #B8B8DC;
+	color: black;
+	text-align: center;
+	/* 文字水平居中 */
+}
+
+#your-like-left-bottom div {
+	text-align: center;
+	display: inline-block;
+	margin: 30px 10px;
+}
+
+#your-like-left-bottom div img {
+	width: 110px;
+	height: 110px;
+	background-color:#B8B8DC ;
+}
+
+#your-like-left-bottom div strong {
+	color: red;
+}
+
+#your-like-right-one,
+#your-like-right-two {
+	border: 1px solid #DDDDDD;
+	border-radius: 6px 6px 0 0;
+	margin-bottom: 10px;
+
+}
+
+#one-top,
+#two-top {
+	background-color: #B8B8DC;
+	height: 39px;
+	line-height: 39px;
+	padding: 5px 10px;
+
+}
+
+#one-top strong,
+#two-top strong {
+	font-size: 16px;
+}
+
+#one-top a {
+	float: right;
+	color: white;
+}
+
+#one-bottom {
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+
+#two-bottom {
+	padding: 10px 10px 40px 13px;
+}
+
+#one-bottom img {
+	width: 76px;
+}
+
+#two-bottom ul {
+	list-style: disc;
+	list-style-position: inside;
+	color: #B8B8DC;
+}
+
+#two-bottom ul li {
+	margin-top: 5px;
+}
+
+#two-bottom ul li a {
+	color: #005EA7;
+}
+
+#your-like-right-three img {
+	width: 260px;
+}
+
+/* r热卖商品 */
+#best-sell {
+	/* border: 1px solid red; */
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#best-sell-left {
+	float: left;
+	border: 1px solid #7373B9;
+	width: 700px;
+	height: 291px;
+	border-top: 3px solid #7373B9;
+}
+
+#best-sell-right {
+	float: right;
+}
+
+#best-sell-left,
+#best-sell-right {
+	display: inline-block;
+}
+
+#best-sell-left-top {
+	font-size: 0px;
+	/* 解决h2 之间的空格*/
+}
+
+#best-sell-left-top h2 {
+	display: inline-block;
+	width: 117px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #B8B8DC;
+	background:#B8B8DC;
+	text-align: center;
+	font-size: 15px;
+}
+
+#best-sell-left-top h2:hover {
+	/* 鼠标移上的时候发生的变化 */
+	border: none;
+	background: none;
+}
+#best-sell-left{
+	background-color: #E6E6F2;
+}
+
+#best-sell-left-bottom div {
+	text-align: center;
+	display: inline-block;
+	margin: 30px 10px;
+}
+
+#best-sell-left-bottom div img {
+	width: 110px;
+	height: 110px;
+}
+
+#best-sell-left-bottom div strong {
+	color: red;
+}
+
+#best-sell-right {
+	width: 260px;
+	border: 1px solid #DDDDDD;
+	border-radius: 6px 6px 0 0;
+
+}
+
+#best-sell-right-top {
+	background-color: #B8B8DC;
+	height: 39px;
+	line-height: 39px;
+	padding: 5px 10px;
+
+}
+
+#best-sell-right-top h2 {
+	font-size: 16px;
+}
+
+.img,
+.p {
+	display: inline-block;
+}
+
+.img {
+	width: 80px;
+	box-sizing: border-box;
+}
+
+.img img {
+	width: 80px;
+}
+
+.p h2 {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.p {
+	width: 160px;
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #333333;
+}
+
+#best-sell-right-bottom {
+	padding: 10px 6px;
+}
+
+#best-sell-right-bottom hr {
+	margin: 10px 0;
+}
+
+.p h2 em {
+	display: inline-block;
+	width: 36px;
+	height: 16px;
+	line-height: 16px;
+	color: #b27f7f;
+	text-align: center;
+}
+
+/* 全部商品分类 */
+#all-good-type {
+	margin: 20px auto;
+}
+
+#all-good-type-bottom-left,
+#all-good-type-bottom-middle,
+#all-good-type-bottom-right,
+#all-good-type-top h2 {
+	display: inline-block;
+}
+
+
+#all-good-type-top {
+	background-color: #B8B8DC;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	border-radius: 6px 6px 0 0;
+
+
+}
+
+.total {
+	width: 170px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.type {
+	width: 80px;
+	text-align: center;
+
+}
+
+#type-first {
+	background: white;
+}
+
+.type:hover {
+	background: white;
+}
+
+#all-good-type-top {
+	font-size: 0;
+}
+
+#all-good-type-top h2 {
+	font-size: 16px;
+}
+
+#all-good-type-bottom-left {
+	background: #E6E6F2;
+	border: 2px solid #B8B8DC;
+	width: 170px;
+	box-sizing: border-box;
+	position: relative;
+	top: -17px;
+}
+
+.good-type {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid white;
+	border-bottom: 1px solid white;
+	list-style: disc;
+	list-style-position: inside;
+	padding-left: 10px;
+	position: relative;
+}
+
+.second-menu {
+	position: absolute;
+	left: 166px;
+	top: 0px;
+	width: 300px;
+	border: 2px solid #B8B8DC;
+	display: none;
+	padding-left: 20px;
+	z-index: 99;
+	background-color: white;
+}
+
+.good-type:hover .second-menu {
+	display: block;
+}
+
+.good-type:hover {
+	background-color: white;
+}
+
+.second-menu-first {
+	color: red;
+}
+
+#nums span {
+	background-color: #DDDDDD;
+	display: inline-block;
+	width: 20px;
+	line-height: 20px;
+	height: 20px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+#nums span:hover {
+	background-color: #B8B8DC;
+}
+
+#all-good-type-bottom-middle {
+	position: relative;
+	margin-top: 4px;
+}
+
+#nums {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+
+#all-good-type-bottom-right {
+	width: 260px;
+	position: relative;
+	top: -2px;
+}
+
+#all-good-one img {
+	width: 260px;
+}
+
+#all-good-two,
+#all-good-three {
+	border: 1px solid #DDDDDD;
+	border-radius: 6px 6px 0 0;
+	margin-top: 7px;
+}
+
+#all-good-two #one-bottom div {
+	display: inline-block;
+	width: 115px;
+}
+
+#all-good-three-top h2 {
+	display: inline-block;
+	width: 60px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #7373B9;
+	background: #B8B8DC;
+	text-align: center;
+	font-size: 15px;
+}
+
+#all-good-three-top {
+	font-size: 0;
+}
+
+#all-good-three-bottom img {
+	width: 260px;
+	margin: 9px 0;
+}
+
+
+/* logo  搜索 */
+#logo-search {
+	margin: 20px auto;
+}
+
+#logo-search-left,
+#logo-search-middle,
+#logo-search-right {
+	display: inline-block;
+}
+
+#logo-search-left img {
+	width: 200px;
+}
+
+#search-form {
+	border: 3px solid #7373B9;
+	border-radius: 4px;
+}
+
+#search-text {
+	width: 420px;
+	height: 30px;
+	line-height: 30px;
+	border: 0px;
+	/* 去除选中的边框 */
+	outline: none;
+	padding-left: 10px;
+}
+
+#search-button {
+	width: 70px;
+	height: 30px;
+	font-weight: bold;
+	background-color:#B8B8DC ;
+	border: 0px;
+	/* 去除选中的边框 */
+	outline: none;
+}
+
+#logo-search-middle span,
+#logo-search-middle a {
+	color: #737;
+}
+#user-center {
+	background-color: rgb(242,242,242);
+	border: 1px solid #DDDDDD;
+	border-radius: 2px;
+}
+#user-center em,span{
+	vertical-align: middle;
+}
+#user-center .before {
+	display: inline-block;
+	
+	height: 24px;
+	margin: 2px 0 0 3px;
+	
+	margin-right: 2px;
+}
+
+#user-center .after {
+	display: inline-block;
+	width: 13px;
+	height: 7px;
+	background: url(../img/bg1.png) -14px -283px no-repeat;
+	font-size: 0;
+	margin-left: 2px;
+}
+
+
+#user-center-menu-two .left,#user-center-menu-two .right{
+	display: inline-block;
+	
+}
+#user-center-menu-two .left a,
+#user-center-menu-two .right a,
+#user-center-menu-one span{
+	color: #005AA0;
+}
+
+#user-center-menu-three img{
+	width: 50px;
+	border: 1px solid #DDDDDD;
+	margin: 10px;
+}
+
+#user-center-menu{
+	border: 1px solid rgb(184,184,184);
+}
+#user-center-menu-one ,#user-center-menu-three{
+	background-color: rgb(242,242,242);
+	
+}
+
+#user-center-menu-one{
+	    height: 35px;
+	    vertical-align: middle;
+	    line-height: 35px;
+	    padding-left: 5px;
+}
+#user-center-menu-two div{
+	width: 100px;
+	padding-left: 20px;
+}
+
+#user-center-menu-two .left{
+	border-right: 1px solid #DDDDDD;
+}
+#user-center-menu-two li{
+	line-height: 20px;
+	height: 20px;
+	border-bottom: 1px dashed  #DDDDDD;
+}
+#logo-search-right .first{
+	position: relative;
+	float: left;
+	margin-left: 20px;
+}
+#user-center-menu{
+	position: absolute;
+	background-color: white;
+	width: 300px;
+	top: 30px;
+	z-index: 99;
+	display: none;
+}
+#logo-search-right .first:hover #user-center-menu{
+	display: block;
+}
+
+#logo-search-right{
+	position: relative;
+	top: -15px;
+	left: 20px;
+}
